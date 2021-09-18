@@ -5,7 +5,7 @@ import threading
 HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
-DISCONNECT_MESSAGE = "/exit"
+DISCONNECT_MESSAGE = "/disconnect"
 SERVER = "127.0.0.1"
 
 ADDR = (SERVER, int(sys.argv[1]))

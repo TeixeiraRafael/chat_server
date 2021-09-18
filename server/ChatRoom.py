@@ -3,7 +3,7 @@ import threading
 
 from User import *
 
-DISCONNECT_MESSAGE = "/exit"
+DISCONNECT_MESSAGE = "/disconnect"
    
 class ChatRoom():
     _users = []
